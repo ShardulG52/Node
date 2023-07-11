@@ -13,7 +13,7 @@ readFile("samples.json", function (err, fileData) {
   console.log("Total Number Of FeMale Users are " + totalMale.false);
 
   const userDetail = _.find(data, (res) => {
-    if (`${res.name.firstName} +" "+ ${res.name.lastName}` === "Vinay Gajjar") {
+    if (`${res.name.firstName} ${res.name.lastName}` === "Vinay Gajjar") {
       return res;
     }
   });
@@ -109,8 +109,6 @@ readFile("samples.json", function (err, fileData) {
     }
   });
 
-  const res = _.filter(data, "interests");
-  console.log(res);
   console.log("Common Interest Users: ");
   console.log(commonInterest);
 
@@ -123,6 +121,4 @@ readFile("samples.json", function (err, fileData) {
 
   console.log("Sorting By First Name :");
   console.log(sortByFirstName);
-
-  console.log(commonInterest);
 });
