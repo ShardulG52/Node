@@ -1,5 +1,5 @@
 const greet = (name) => {
-  return name;
+  console.log("Good Morning " + name);
 };
 
 export { greet };
