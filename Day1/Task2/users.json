@@ -1,0 +1,80 @@
+[
+  {
+    "id": "1",
+    "name": "Harsh Agarwal",
+    "country": "India",
+    "hobbies": ["Rubiks cube", "Dancing"]
+  },
+  {
+    "id": "2",
+    "name": "Nisarg Dewang",
+    "country": "India",
+    "hobbies": ["Travelling", "Netflix"]
+  },
+  {
+    "id": "3",
+    "name": "Husny Ahmed",
+    "country": "Sri Lanka",
+    "hobbies": ["Painting", "Hiking"]
+  },
+  {
+    "id": "4",
+    "name": "Darren Oliver",
+    "country": "Netherlands",
+    "hobbies": ["Travelling"]
+  },
+  {
+    "id": "5",
+    "name": "John Doe",
+    "country": "Netherlands",
+    "hobbies": ["Dancing", "Singing"]
+  },
+  {
+    "id": "6",
+    "name": "Sean Paul",
+    "country": "United States of America",
+    "hobbies": ["Trekking", "Travelling"]
+  },
+  {
+    "id": "7",
+    "name": "Mike Paddington",
+    "country": "England",
+    "hobbies": ["Calligraphy", "Painting"]
+  },
+  {
+    "id": "8",
+    "name": "Shardul Gautam",
+    "country": "India",
+    "hobbies": ["Workout", "Dancing"]
+  },
+  {
+    "id": "9",
+    "name": "Gaurav Pandey",
+    "country": "India",
+    "hobbies": ["Travelling", "Netflix"]
+  },
+  {
+    "id": "10",
+    "name": "Kalki",
+    "country": "India",
+    "hobbies": ["eating rice"]
+  },
+  {
+    "id": "11",
+    "name": "Shivam Yadav",
+    "country": "India",
+    "hobbies": ["Reading"]
+  },
+  {
+    "id": "12",
+    "name": "Krant Darshi",
+    "country": "India",
+    "hobbies": ["cooking"]
+  },
+  {
+    "id": "13",
+    "name": "Jairaj",
+    "country": "Bangladesh",
+    "hobbies": ["Running"]
+  }
+]

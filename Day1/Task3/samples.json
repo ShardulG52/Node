@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1001,
+    "name": {
+      "firstName": "John",
+      "lastName": "Doe"
+    },
+    "gender": "male",
+    "interests": ["c", "c++"]
+  },
+  {
+    "id": 1002,
+    "name": {
+      "firstName": "Rikesh",
+      "lastName": "Suthar"
+    },
+    "gender": "male",
+    "interests": ["c", "c++"]
+  },
+  {
+    "id": 1003,
+    "name": {
+      "firstName": "Nisha",
+      "lastName": "Singhal"
+    },
+    "gender": "female",
+    "interests": ["node", "react"]
+  },
+  {
+    "id": 1004,
+    "name": {
+      "firstName": "Vinay",
+      "lastName": "Gajjar"
+    },
+    "gender": "male",
+    "interests": ["c", "c++"]
+  },
+  {
+    "id": 1005,
+    "name": {
+      "firstName": "Shardul",
+      "lastName": "Gautam"
+    },
+    "gender": "male",
+    "interests": ["React Native", "Node"]
+  },
+  {
+    "id": 1006,
+    "name": {
+      "firstName": "Shivam",
+      "lastName": "Yadav"
+    },
+    "gender": "male",
+    "interests": ["JS", "Node"]
+  },
+  {
+    "id": 1007,
+    "name": {
+      "firstName": "Kalki",
+      "lastName": "chiti"
+    },
+    "gender": "male",
+    "interests": ["node", "react"]
+  },
+  {
+    "id": 1008,
+    "name": {
+      "firstName": "Gaurav",
+      "lastName": "Pandey"
+    },
+    "gender": "male",
+    "interests": ["TT", "Sleep"]
+  }
+]
