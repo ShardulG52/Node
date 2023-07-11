@@ -13,7 +13,7 @@ readFile("samples.json", function (err, fileData) {
   console.log("Total Number Of FeMale Users are " + totalMale.false);
 
   const userDetail = _.find(data, (res) => {
-    if (res.name.firstName === "Vinay" && res.name.lastName === "Gajjar") {
+    if (`${res.name.firstName} +" "+ ${res.name.lastName}` === "Vinay Gajjar") {
       return res;
     }
   });
