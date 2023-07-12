@@ -16,26 +16,26 @@ class Car {
   }
 }
 
-const myCar1 = new Car("BMW X6");
-const myCar2 = new Car("Fortuner");
-const myCar3 = new Car("BMW 8 series");
-const myCar4 = new Car("Verna");
-const myCar5 = new Car("Baleno");
+const bmw = new Car("BMW X6");
+const fortuner = new Car("Fortuner");
+const bmw8 = new Car("BMW 8 series");
+const verna = new Car("Verna");
+const baleno = new Car("Baleno");
 
-myCar1.getCarModelName();
-myCar2.getCarModelName();
-myCar3.getCarModelName();
-myCar4.getCarModelName();
-myCar5.getCarModelName();
+bmw.getCarModelName();
+fortuner.getCarModelName();
+bmw8.getCarModelName();
+verna.getCarModelName();
+baleno.getCarModelName();
 
-myCar1.addFuel(50);
-myCar2.addFuel(50);
-myCar3.addFuel(50);
-myCar4.addFuel(50);
-myCar5.addFuel(50);
+bmw.addFuel(50);
+fortuner.addFuel(50);
+bmw8.addFuel(50);
+verna.addFuel(50);
+baleno.addFuel(50);
 
-myCar1.getCarModelName();
-myCar2.getCarModelName();
-myCar3.getCarModelName();
-myCar4.getCarModelName();
-myCar5.getCarModelName();
+bmw.getCarModelName();
+fortuner.getCarModelName();
+bmw8.getCarModelName();
+verna.getCarModelName();
+baleno.getCarModelName();

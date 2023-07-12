@@ -42,10 +42,10 @@ console.log(sortedAgeArray);
 const sum = (sum, item) => {
   return sum + item;
 };
-const sumOfArray = _.reduce(ageArray, sum, 0);
+const sumOfAgeArray = _.reduce(ageArray, sum, 0);
 
 console.log(`\n5. Sum of all the ages in ageArray: `);
-console.log(sumOfArray);
+console.log(sumOfAgeArray);
 
 const [company] = companies;
 const { name, category } = company;
