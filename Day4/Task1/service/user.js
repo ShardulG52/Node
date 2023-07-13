@@ -35,7 +35,6 @@ const loginUser = async (emailEntered, passwordEntered) => {
     };
 
     const jwtToken = jwt.sign(payLoad, mySecretKey);
-    console.log(jwtToken);
     return { token: jwtToken, message: "Logged In " };
   } catch (error) {
     return error.message;
