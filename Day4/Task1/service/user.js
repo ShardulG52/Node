@@ -27,7 +27,6 @@ const loginUser = async (emailEntered, passwordEntered) => {
       throw new Error("Email or Password is not valid");
     }
     const mySecretKey = process.env.SECRET_CODE;
-    console.log(mySecretKey);
 
     const payLoad = {
       firstName: user.firstName,
@@ -36,6 +35,7 @@ const loginUser = async (emailEntered, passwordEntered) => {
     };
 
     const jwtToken = jwt.sign(payLoad, mySecretKey);
+    console.log(jwtToken);
     return { token: jwtToken, message: "Logged In " };
   } catch (error) {
     return error.message;

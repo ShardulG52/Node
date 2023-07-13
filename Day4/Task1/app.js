@@ -7,9 +7,7 @@ import booksRouter from "./routes/books.js";
 import mongoose from "mongoose";
 import userRouter from "./routes/user.js";
 
-mongoose
-  .connect("mongodb://localhost:27017/practice")
-  .then(() => console.log("Connected"));
+mongoose.connect("mongodb://localhost:27017/practice");
 
 var app = express();
 
