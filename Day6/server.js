@@ -13,6 +13,7 @@ let activeUserList = {};
 
 io.on("connection", (socket) => {
   socket.on("new-user", (name) => {
+    console.log(name);
     activeUserList[socket.id] = name;
     io.emit("active-users", Object.values(activeUserList));
   });
