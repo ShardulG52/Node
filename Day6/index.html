@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Chat App</title>
+
+    <style>
+      #main {
+        display: flex;
+        flex-direction: row;
+        height: 100vh;
+      }
+      #user-container {
+        flex-grow: 1;
+        border-right: 2px solid rgb(81, 118, 58);
+        background-color: rgb(131, 157, 114);
+        padding-top: 10px;
+      }
+      #chat-container {
+        flex-grow: 5;
+        background-color: rgb(206, 233, 189);
+      }
+
+      #message-container div {
+        background-color: rgb(94, 146, 61);
+        padding: 5px;
+      }
+
+      #message-container div:nth-child(2n) {
+        background-color: rgb(229, 255, 213);
+      }
+      #user-container li {
+        background-color: rgb(176, 186, 170);
+        padding: 5px;
+        border-bottom: 2px solid rgb(71, 118, 59);
+        text-align: center;
+        list-style-type: none;
+      }
+      #user-container li:nth-child(2n) {
+        background-color: rgb(209, 216, 204);
+        padding: 5px;
+        border-bottom: 2px solid rgb(71, 118, 59);
+        text-align: center;
+        list-style-type: none;
+      }
+
+      #send-container {
+        position: fixed;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        bottom: 0;
+        background-color: rgb(132, 190, 122);
+        width: 76.5%;
+        display: flex;
+      }
+
+      #message-input {
+        flex-grow: 1;
+        margin-left: 10px;
+        background-color: rgb(204, 238, 202);
+      }
+
+      #send-button {
+        border-radius: 50%;
+        background-color: rgb(78, 114, 72);
+      }
+      #btn {
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main">
+      <div id="user-container">
+        <h2 style="text-align: center">Online Users</h2>
+        <div id="users"></div>
+      </div>
+      <div id="chat-container">
+        <div id="message-container"></div>
+        <form id="send-container">
+          <input type="text" id="message-input" />
+          <div id="btn">
+            <button type="submit" id="send-button">Send</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/script.js"></script>
+  </body>
+</html>
